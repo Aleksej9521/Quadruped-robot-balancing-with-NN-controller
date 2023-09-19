@@ -1,4 +1,4 @@
-## Two_leg_balancing
+## Two leg balancing NN
 This repository is related to the article "A stable and safe method for two-leg balancing of a quadruped robot using a neural-network-based controller" Alessia Li Noce, Luca Patanè, Paolo Arena. For testing the neural network set use_twolegs equal to 1 before starting. At the beginning, the robot is in recovery mode state. To switch on two legs balancing set control_mode equal to 2. 
 
 It is possible to run the following examples:
