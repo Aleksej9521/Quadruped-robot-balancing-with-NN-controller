@@ -58,7 +58,7 @@ m: Mini Cheetah s: simulation
 ## Dependencies:
 
 - sudo apt install mesa-common-dev freeglut3-dev coinor-libipopt-dev libblas-dev liblapack-dev gfortran liblapack-dev coinor-libipopt-dev cmake gcc build-essential libglib2.0-dev
-- Qt 5.10 - https://www.qt.io/download-qt-installer
+- Qt 5.14 - [https://www.qt.io/download-qt-installer](https://download.qt.io/archive/qt/5.14/5.14.2/)
 - LCM 1.3.1 - https://lcm-proj.github.io/ (Please make it sure that you have a java to let lcm compile java-extension together)
 - Eigen - http://eigen.tuxfamily.org
 - `mesa-common-dev`
