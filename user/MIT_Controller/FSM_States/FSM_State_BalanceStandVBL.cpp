@@ -513,7 +513,7 @@ void FSM_State_BalanceStandVBL<T>::get_desired_state() {
             turn = false;
         }
         
-        if(j1 >= 0.6) //j1 >= 0.7 //0.7 massimo VBL 
+        if(j1 >= 0.6)  
         {   
             turn = true;
         }
@@ -541,7 +541,7 @@ void FSM_State_BalanceStandVBL<T>::get_desired_state() {
         pitch_des = j2;
         start  = change.getSeconds();
         
-        if(j2 == 0.4)
+        if(j2 == 0.5)
         {   
             turn = true;
         }
@@ -571,7 +571,7 @@ void FSM_State_BalanceStandVBL<T>::get_desired_state() {
         
           start  = change.getSeconds();
           
-        if(j1 <= -0.7)  
+        if(j1 <= -0.8)  
         {
             turn = false;
         }
