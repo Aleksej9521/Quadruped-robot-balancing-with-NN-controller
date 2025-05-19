@@ -1,5 +1,5 @@
 ## Two leg balancing NN
-This repository is related to the article "A stable and safe method for two-leg balancing of a quadruped robot using a neural-network-based controller" Alessia Li Noce, Luca Patanè, Paolo Arena, https://doi.org/10.1016/j.robot.2024.104901 . For testing the neural network set use_twolegs equal to 1 before starting. At the beginning, the robot is in recovery mode state. To switch on two legs balancing set control_mode equal to 2. 
+This repository is related to the article "A stable and safe method for two-leg balancing of a quadruped robot using a neural-network-based controller" Li Noce A., Patanè L., Arena P., https://doi.org/10.1016/j.robot.2024.104901 . For testing the neural network set use_twolegs equal to 1 before starting. At the beginning, the robot is in recovery mode state. To switch on two legs balancing set control_mode equal to 2. 
 
 It is possible to run the following examples:
 - Step variation along roll,pitch and yaw: change step_roll, step_pitch e step_yaw equal to 1 respectively. 
